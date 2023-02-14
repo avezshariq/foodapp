@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    --c1: #ebe8e8;
+    --c2: #545454;
+    --c3: #397041;
+    font-family: Ubuntu;
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: var(--c1);
+    font-weight: 700;
+    font-size: 22px;
+}
+.logo {
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    /* gap: 30px; */
+    
+}
+nav ul .logo li a {
+    text-decoration: none;
+    color: var(--c2);
+    background-color: var(--c1);
+    padding: 15px;
+}
+nav ul .logo li a:hover {
+    color: blue;
+    background-color: var(--c2);
+    color: var(--c1);
+}
+.user {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+}
+img {
+    padding: 5px;
+}
+
+
+table {
+    width: 50%;
+    text-align: center;
+    border: 3px solid var(--c2);
+}
+th {
+    background-color: var(--c1);
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+}
+td {
+    padding: 5px 0 5px 0;
+    border: 1px solid var(--c1);
+    font-size: 16px;
+}
