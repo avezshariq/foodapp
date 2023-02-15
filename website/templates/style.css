@@ -45,7 +45,7 @@ img {
 
 
 table {
-    width: 50%;
+    width: 80%;
     text-align: center;
     border: 3px solid var(--c2);
 }
@@ -58,4 +58,17 @@ td {
     padding: 5px 0 5px 0;
     border: 1px solid var(--c1);
     font-size: 16px;
+}
+button {
+    background-color: var(--c1);
+    color: var(--c2);
+    border: 2px solid var(--c2);
+    padding: 5px;
+}
+button:hover {
+    background-color: var(--c2);
+    color: var(--c1);
+}
+button:focus {
+    background-color: var(--c3);
 }
