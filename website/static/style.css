@@ -45,7 +45,7 @@ img {
 
 
 table {
-    width: 80%;
+    width: 50%;
     text-align: center;
     border: 3px solid var(--c2);
 }
@@ -64,6 +64,7 @@ button {
     color: var(--c2);
     border: 2px solid var(--c2);
     padding: 5px;
+    font-size: 1em;
 }
 button:hover {
     background-color: var(--c2);
@@ -71,4 +72,29 @@ button:hover {
 }
 button:focus {
     background-color: var(--c3);
+}
+.heading {
+    font-weight: 700;
+    font-size: 2em;
+    color: var(--c2);
+    padding-left: 20px;
+}
+label {
+    /* font-weight: 700; */
+    color: var(--c2);
+    font-size: 1.3em;
+}
+input {
+    width: 80%;
+    border: 2px solid var(--c2);
+    background-color: var(--c1);
+    color: var(--c2);
+    padding: 10px;
+    font-size: 1em;
+}
+input::placeholder{
+    opacity: 40%;
+}
+.cred {
+    padding-left: 50px;
 }

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+
+{% block body %}
+<form method="POST">
+    <div class="heading">Login</div>
+    <br/>
+    <br/>
+
+    <div class="cred">
+        <label for="email">Email</label>
+        <br/>
+        <input
+            type="email"
+            placeholder="hello@mailbox.com"
+            name="email"
+            id="email"
+            required
+            />
+        <br/>
+        <br/>
+        <label for="password">Password</label>
+        <br/>
+        <input
+            type="password"
+            placeholder="my Super Secret p@$$word"
+            name="password"
+            id="password"
+            required
+            />
+        <br/>
+        <br/>
+        <br/>
+        <button type="submit">Login</button>
+    </div>
+    
+</form>
+
+{% endblock %}
